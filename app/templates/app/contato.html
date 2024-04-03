@@ -1,0 +1,96 @@
+{% load static %}
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Contato</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+
+<link href="{% static 'css/bootstrap.min.css'%}" rel="stylesheet">
+
+    <style>
+      .fundo {
+    background: url("{% static 'img/img3.jpg' %}") cadetblue;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.mask {
+    background-color: #000000eb !important;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/cover.css'%}" rel="stylesheet">
+  </head>
+  <body class="fundo d-flex h-100 text-center text-white bg-dark">
+    <div class="mask"></div>
+    
+<div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0">Grêmio</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/sobre">Sobre</a>
+        <a class="nav-link active" aria-current="page" href="/contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="px-3">
+    <h1>Nossos contatos</h1><br>
+    <p class="lead">
+      Fones:<br>
+      +55 51 3218-2000<br>
+      +55 51 3218-2000<br><br>
+      
+      Horário de Atendimento<br>
+      Administração do Grêmio:<br>
+      Segunda à Sexta-feira: 9h às 18h<br><br>
+      
+      Arena do Grêmio<br>
+      Av. Padre Leopoldo Brentano, 110/2100, Humaitá<br>
+      Porto Alegre/RS - Brasil - CEP 90250-590 / 90251-903<br></p>
+    <p class="lead">
+
+    </p>
+  </main>
+
+  <footer class="mt-auto text-white-50">
+    <p>Roberto</p>
+  </footer>
+</div>
+
+
+    
+  </body>
+</html>
